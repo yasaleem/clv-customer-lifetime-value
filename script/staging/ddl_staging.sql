@@ -22,7 +22,7 @@ IF OBJECT_ID('staging.orders', 'U') is NOT NULL
 CREATE TABLE staging.orders (
     Invoice         NVARCHAR(20),
     Customer_ID     INT,
-    InvoiceDate     DATE,
+    InvoiceDate     DATETIME,
     dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 GO
@@ -33,7 +33,7 @@ IF OBJECT_ID('staging.orders_cancellations', 'U') is NOT NULL
 CREATE TABLE staging.orders_cancellations (
     Invoice         NVARCHAR(20),
     Customer_ID     INT,
-    InvoiceDate     DATE,
+    InvoiceDate     DATETIME,
     dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
   
