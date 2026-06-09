@@ -44,7 +44,7 @@ CREATE TABLE staging.order_items (
     Invoice         NVARCHAR(20),
     StockCode       NVARCHAR(20),
     Description     NVARCHAR(255),
-    Quantity        INT,
+    Quantity        FLOAT,
     Price           FLOAT,
   dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
