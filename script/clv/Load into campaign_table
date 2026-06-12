@@ -1,0 +1,34 @@
+
+
+
+INSERT INTO clv.campaign_roi (
+    Segment,
+    Customer_Count,
+    Avg_Projected_CLV,
+    Max_Spend_Per_Customer,
+    Total_Segment_CLV,
+    Total_Campaign_Budget,
+    Priority)
+SELECT 
+    Segment,
+    Customer_Count,
+    Avg_Projected_CLV,
+    Max_Spend_Per_Customer,
+    Total_Segment_CLV,
+    Total_Campaign_Budget,
+    CASE 
+        WHEN Segment LIKE 'VIP%'    THEN 'High'
+        WHEN Segment LIKE 'Growth%' THEN 'Medium'
+        ELSE                             'Low'
+    END AS Priority
+FROM (
+    SELECT 
+        Segment,
+        COUNT(*)                                AS Customer_Count,
+        ROUND(AVG(Projected_CLV_12M), 0)        AS Avg_Projected_CLV,
+        ROUND(AVG(Projected_CLV_12M) * 0.15, 0) AS Max_Spend_Per_Customer,
+        ROUND(SUM(Projected_CLV_12M), 0)        AS Total_Segment_CLV,
+        ROUND(SUM(Projected_CLV_12M) * 0.15, 0) AS Total_Campaign_Budget
+    FROM clv.clv_segments
+    GROUP BY Segment
+) base;
