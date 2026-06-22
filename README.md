@@ -24,7 +24,7 @@ An Interactive Power BI dashboard can found [here]().
 4 - What is the ROI threshold for win-back campaigns per segment?
 
 ### Data Structure & Initial Checks
-
+BritGifts Online database structure as seen below consists of four tables: Customer, order, order_item, with a total row count of 1,067,371 records.
 
 ### Key Findings
 
