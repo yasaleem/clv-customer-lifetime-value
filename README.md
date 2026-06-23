@@ -18,9 +18,9 @@ The predictive model is validated against actual 2011 purchase data — turning 
 An Interactive Power BI dashboard can found [here]().
 
 ### Business Questions
-1 - What is each customer's predicted lifetime value for the next 12 months?/
-2 - Which customers are worth the most investment to retain?/
-3 - How does CLV vary across behavioral segments?/
+1 - What is each customer's predicted lifetime value for the next 12 months?\
+2 - Which customers are worth the most investment to retain?\
+3 - How does CLV vary across behavioral segments?\
 4 - What is the ROI threshold for win-back campaigns per segment?
 
 ### Data Structure & Initial Checks
@@ -28,6 +28,35 @@ BritGifts Online database structure as seen below consists of four tables: Custo
 
 ### Key Findings
 
+#### Finding 1 - VIP At Risk — £6.7M projected revenue at risk
+
+> 551 high value customers gone silent for 379 days
+
+---
+
+#### Finding 2 - Growth At Risk is the highest volume opportunity
+
+> 1,121 customers, £3.4M CLV, £517K justifiable campaign budget
+
+---
+
+#### Finding 3 - Revenue is highly concentrated
+
+> top 20% of customers generate majority of total predicted revenue
+
+---
+
+#### Finding 4 - Platinum vs VIP At Risk — same value, opposite engagement
+
+>  17 days avg recency vs 379 days — same CLV tier, completely different urgency
+
+---
+
+### Finding 5 - Low Value segment is misleadingly named
+
+> £4,657 avg CLV despite Bronze tier — likely high-spend infrequent buyers worth investigating
+
+---
 
 ### Business Recommendations
 
