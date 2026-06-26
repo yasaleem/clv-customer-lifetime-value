@@ -12,9 +12,7 @@ CLV tiers, customer segments, and campaign budget allocation.
 
 **Page 1 — CLV Overview**
 High level KPIs — total customers scored, total predicted revenue 
-(£23.48M), avg CLV per customer, Platinum customer count. CLV tier 
-distribution donut showing Platinum generates 68% of predicted revenue 
-despite being only 27% of customers. Revenue and customer count bar 
+(£23.48M), avg CLV per customer, Platinum customer count. Revenue and customer count bar 
 charts by tier. Filterable by CLV tier.
 
 **Page 2 — CLV Segment Analysis**
@@ -48,16 +46,16 @@ customer chart, priority matrix table with conditional color coding
 #### Screenshots
 
 **Page 1 — CLV Overview**
-![CLV Overview](charts/CLV Overview.jpg)
+![CLV Overview](charts/CLV_Overview.jpg)
 
 **Page 2 — CLV Segment Analysis**
-![CLV Segments](charts/powerbi_clv_segments.png)
+![CLV Segments](charts/CLV_Segments.jpg)
 
 **Page 3 — Predictive CLV Model Validation**
-![Model Validation](charts/powerbi_clv_validation.png)
+![Model Validation](charts/Predictive_CLV.jpg)
 
 **Page 4 — Campaign ROI Budget Allocation**
-![Campaign ROI](charts/powerbi_clv_campaign_roi.png)
+![Campaign ROI](charts/Campaign_ROI.jpg)
 
 #### Technical Details
 - **Data source:** SQL Server — CLV analytics layer
