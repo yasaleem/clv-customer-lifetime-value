@@ -1,14 +1,14 @@
-## Power BI Dashboard
+### Power BI Dashboard
 
-### Live Dashboard
+#### Live Dashboard
 [View Interactive CLV Analytics Dashboard](YOUR_POWER_BI_LINK_HERE)
 
-### Dashboard Overview
+#### Dashboard Overview
 Built an interactive 4-page CLV Analytics dashboard connected 
 directly to SQL Server — enabling real-time filtering across 
 CLV tiers, customer segments, and campaign budget allocation.
 
-### Pages
+#### Pages
 
 **Page 1 — CLV Overview**
 High level KPIs — total customers scored, total predicted revenue 
@@ -37,7 +37,7 @@ segments. Justifiable budget by segment bar chart, max spend per
 customer chart, priority matrix table with conditional color coding 
 — High (red), Medium (orange), Low (teal). Filterable by priority tier.
 
-### Key DAX Measures
+#### Key DAX Measures
 - Total Predicted Revenue — SUM of Projected_CLV_12M
 - Avg Probability Alive — AVERAGE of Probability_Alive
 - Model MAE — AVERAGEX of ABS(Predicted - Actual)
@@ -45,10 +45,10 @@ customer chart, priority matrix table with conditional color coding
 - Prediction Accuracy — DIVIDE of correctly predicted buyers
 - Total Revenue At Risk — High priority segment CLV sum
 
-### Screenshots
+#### Screenshots
 
 **Page 1 — CLV Overview**
-![CLV Overview](charts/powerbi_clv_overview.png)
+![CLV Overview](charts/CLV Overview.jpg)
 
 **Page 2 — CLV Segment Analysis**
 ![CLV Segments](charts/powerbi_clv_segments.png)
@@ -59,7 +59,7 @@ customer chart, priority matrix table with conditional color coding
 **Page 4 — Campaign ROI Budget Allocation**
 ![Campaign ROI](charts/powerbi_clv_campaign_roi.png)
 
-### Technical Details
+#### Technical Details
 - **Data source:** SQL Server — CLV analytics layer
 - **Tables connected:** clv.historical_clv, clv.projected_clv, 
   clv.rfm_scores, clv.clv_segments, clv.campaign_roi, 
