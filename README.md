@@ -15,7 +15,7 @@ The predictive model is validated against actual 2011 purchase data — turning 
 **Prediction Period:** January 2011 — December 2011  
 **Reference Date:** December 31, 2010
 
-An Interactive Power BI dashboard can found [here](docs/clv_powerbi.md).
+An Interactive Power BI dashboard can be found [here](docs/clv_powerbi.md).
 
 ### Business Questions
 1 - What is each customer's predicted lifetime value for the next 12 months?\
