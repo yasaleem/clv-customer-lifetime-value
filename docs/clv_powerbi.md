@@ -1,7 +1,7 @@
 ### Power BI Dashboard
 
 #### Live Dashboard
-[View Interactive CLV Analytics Dashboard](YOUR_POWER_BI_LINK_HERE)
+[View Interactive CLV Analytics Dashboard](https://app.powerbi.com/links/flkoeRVUbb?ctid=ca67eede-0f19-4a59-bb1c-da269bed9be1&pbi_source=linkShare)
 
 #### Dashboard Overview
 Built an interactive 4-page CLV Analytics dashboard connected 
