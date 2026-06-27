@@ -58,7 +58,7 @@ BritGifts Online database structure as seen below consists of three tables: Cust
 
 ### Business Recommendations
 
-### Recommendation 1 — VIP At Risk: Personal Win-Back Within 30 Days
+#### Recommendation 1 — VIP At Risk: Personal Win-Back Within 30 Days
 > **Linked to Finding 1 — £6.7M projected revenue at risk**
 
 551 customers worth £12,193 average CLV silent for 379 days.
@@ -67,7 +67,7 @@ Target 25% response rate = £1.7M recovered revenue.
 
 ---
 
-### Recommendation 2 — Growth At Risk: Three-Wave Campaign
+#### Recommendation 2 — Growth At Risk: Three-Wave Campaign
 > **Linked to Finding 2 — highest volume opportunity**
 
 1,121 customers. £517K campaign budget. Three waves over 6 weeks —
@@ -76,7 +76,7 @@ Target 20% response = £690K recovered revenue.
 
 ---
 
-### Recommendation 3 — Protect Before You Acquire
+#### Recommendation 3 — Protect Before You Acquire
 > **Linked to Finding 3 — revenue concentration**
 
 Top 20% drive majority of revenue. Redirect 30% of acquisition
@@ -85,7 +85,7 @@ and Gold customers going silent.
 
 ---
 
-### Recommendation 4 — VIP Active and VIP At Risk Need Different Treatment
+#### Recommendation 4 — VIP Active and VIP At Risk Need Different Treatment
 > **Linked to Finding 4 — same value, opposite engagement**
 
 17 days vs 379 days recency — same CLV tier, completely different
@@ -94,7 +94,7 @@ Never treat them the same.
 
 ---
 
-### Recommendation 5 — Investigate Low Value Before Writing Off
+#### Recommendation 5 — Investigate Low Value Before Writing Off
 > **Linked to Finding 5 — £4,657 avg CLV despite Bronze tier**
 
 Bronze customers show Gold-level CLV — likely seasonal high-spend
